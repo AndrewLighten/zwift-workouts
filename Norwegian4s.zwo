@@ -1,6 +1,6 @@
 <workout_file>
     <author>Lighto [SRT]</author>
-    <name>Norweigan 4x4</name>
+    <name>Norwegian 4x4</name>
     <description>VO2 workout.</description>
     <sportType>bike</sportType>
     <tags>
@@ -8,7 +8,7 @@
     </tags>
     <workout>
         <Warmup Duration="300" PowerLow="0.5" PowerHigh="0.75" pace="0">
-            <textevent timeoffset="0" message="Welcome to the Norweigan 4x4 protocol. This will take less than an hour, but provide a good workout."/>
+            <textevent timeoffset="0" message="Welcome to the Norwegian 4x4 protocol. This will take less than an hour, but provide a good workout."/>
             <textevent timeoffset="10" message="This protocol is about building VO2 max — because higher VO2 max values directly correlate to both brain health and lifespan."/>
             <textevent timeoffset="30" message="Today's workout is fairly straighforward."/>
             <textevent timeoffset="40" message="We do a couple of warmup activites, then our main set, then cool down."/>
