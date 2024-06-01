@@ -1,0 +1,160 @@
+<workout_file>
+    <author>Andrew Lighten</author>
+    <name>Skyline</name>
+    <description>Intervals and FTP efforts. Should hurt, but not too much.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="FTP"/>
+    </tags>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.45" PowerHigh="0.75" pace="0" Cadence="85">
+            <textevent timeoffset="5" message="Welcome to Skyline. This is just over an hour of intervals and FTP efforts."/>
+            <textevent timeoffset="15" message="Have you started your Apple Watch workout?"/>
+            <textevent timeoffset="40" message="We'll challenge you with some intervals and sustained efforts, but punctuate them with good rest periods."/>
+            <textevent timeoffset="55" message="But... we'll focus on making you work hard when you're already partially fatigued. Doing so will develop your ability to respond to increased power demands when you're riding with others."/>
+            <textevent timeoffset="120" message="Watch the cadence targets. They will move around."/>
+            <textevent timeoffset="355" message="Your warmup is over. We'll first glide into an easy but steady effort."/>
+        </Warmup>
+        <SteadyState Duration="210" Power="0.65" pace="0" Cadence="85">
+            <textevent timeoffset="30" message="Find a comfortable rhythm."/>
+            <textevent timeoffset="195" message="Coming up next is 95% FTP for 3 minutes. You can do this."/>
+            <textevent timeoffset="205" message="Remember that the cadence targets will move around. Watch for them."/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.95" pace="0" Cadence="90">
+            <textevent timeoffset="10" message="Settle in to a good steady rhythm as quickly as you can."/>
+            <textevent timeoffset="90" message="We've got half way."/>
+            <textevent timeoffset="150" message="Only 30 seconds left."/>
+            <textevent timeoffset="170" message="You've got this!"/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.65" pace="0" Cadence="80">
+            <textevent timeoffset="2" message="Relax your shoulders. Have a drink and enjoy the break."/>
+            <textevent timeoffset="150" message="Next up, we've got five efforts. The power demand drops with each one, but they get longer."/>
+            <textevent timeoffset="160" message="The cadence changes with each effort too, so watch for that."/>
+            <textevent timeoffset="170" message="Spin it up! We start at 90rpm..."/>
+        </SteadyState>
+        <SteadyState Duration="10" Power="1.60" pace="0" Cadence="90">
+            <textevent timeoffset="0" message="1 of 5: 160% FTP"/>
+        </SteadyState>
+        <SteadyState Duration="10" Power="0.65" pace="0" Cadence="85">
+        </SteadyState>
+        <SteadyState Duration="12" Power="1.50" pace="0" Cadence="95">
+            <textevent timeoffset="0" message="2 of 5: 150% FTP"/>
+        </SteadyState>
+        <SteadyState Duration="12" Power="0.65" pace="0" Cadence="90">
+        </SteadyState>
+        <SteadyState Duration="15" Power="1.40" pace="0" Cadence="90">
+            <textevent timeoffset="0" message="3 of 5: 140% FTP"/>
+        </SteadyState>
+        <SteadyState Duration="15" Power="0.65" pace="0" Cadence="85">
+        </SteadyState>
+        <SteadyState Duration="19" Power="1.30" pace="0" Cadence="95">
+            <textevent timeoffset="0" message="4 of 5: 130% FTP"/>
+        </SteadyState>
+        <SteadyState Duration="19" Power="0.65" pace="0" Cadence="85">
+        </SteadyState>
+        <SteadyState Duration="24" Power="1.20" pace="0" Cadence="100">
+            <textevent timeoffset="0" message="Last one: 120% FTP"/>
+        </SteadyState>
+        <SteadyState Duration="24" Power="0.65" pace="0" Cadence="85">
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50" pace="0" Cadence="80">
+            <textevent timeoffset="2" message="Relax your shoulders. Hydrate."/>
+            <textevent timeoffset="90" message="Got those shoulders down nice and low? Easy, loose upper body? Good."/>
+            <textevent timeoffset="165" message="It's ramp time! Two minutes - first up to 110%, then down to 80%."/>
+            <textevent timeoffset="175" message="Pick up your cadence."/>
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.80" PowerHigh="1.10" pace="0" Cadence="100"/>
+        <Ramp Duration="60" PowerLow="1.00" PowerHigh="0.80" pace="0" Cadence="95">
+            <textevent timeoffset="55" message="A nice easy 3 minutes at 50% FTP coming up."/>
+        </Ramp>
+        <SteadyState Duration="180" Power="0.50" pace="0" Cadence="85">
+            <textevent timeoffset="30" message="Make sure you drink."/>
+            <textevent timeoffset="90" message="We're half way through this break."/>
+            <textevent timeoffset="150" message="There's another solid effort coming up next. Get ready to lift your cadence again."/>
+            <textevent timeoffset="170" message="Spin it up — we do this 2 mninutes at 95rpm."/>
+        </SteadyState>
+        <SteadyState Duration="120" Power="1.05" pace="0" Cadence="95">
+            <textevent timeoffset="2" message="Let's go. 105% effort. We've got just two minutes at this level."/>
+            <textevent timeoffset="30" message="Remember that pain is just weakness leaving the body."/>
+            <textevent timeoffset="60" message="You're half way. Going well."/>
+            <textevent timeoffset="90" message="Just 30 seconds left. YES YOU CAN."/>
+            <textevent timeoffset="110" message="Last 10 seconds. PUSH."/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.50" pace="0" Cadence="80">
+            <textevent timeoffset="2" message="Great work. We'll rest now."/>
+            <textevent timeoffset="15" message="Have a drink. Relax your hands, arms, and shoulders."/>
+            <textevent timeoffset="90" message="You're half way through this break."/>
+            <textevent timeoffset="100" message="Relaxing your upper body? Good."/>
+            <textevent timeoffset="150" message="Our first interval set is next. We'll do 15 seconds at 100% FTP, then 35 seconds at 80% FTP. There's four reps in this set."/>
+            <textevent timeoffset="170" message="There's no cadence target for these intervals. Spin at a pace that feels comfortable."/>
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="15" OffDuration="35" OnPower="1.00" OffPower="0.80" pace="0"/>
+        <SteadyState Duration="295" Power="0.55" pace="0" Cadence="75">
+            <textevent timeoffset="2" message="Done. Good job. Let's take another break. We'll keep the cadence low."/>
+            <textevent timeoffset="20" message="Get comfortable. Relax your upper body. Light touch with your hands, and relaxed arms and shoulders."/>
+            <textevent timeoffset="147" message="That's half way."/>
+            <textevent timeoffset="195" message="Remember to hydrate."/>
+            <textevent timeoffset="265" message="Our second interval set is next. We'll do 10 seconds at 115% FTP, then 30 seconds at 75% FTP. There's eight reps in this set."/>
+            <textevent timeoffset="270" message="You won't fully recover between work efforts during this set. That's by design. Work while you're fatiguing."/>
+            <textevent timeoffset="285" message="The cadence is a little higher here, so get ready to spin it up."/>
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="10" OffDuration="30" OnPower="1.15" OffPower="0.75" Cadence="90" pace="0">
+            <textevent timeoffset="245" message="That's six down. Two to go."/>
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.65" pace="0" Cadence="85">
+            <textevent timeoffset="2" message="Let's do a low effort but slightly high cadence recovery. It will help clear the acid from that last interval set."/>
+            <textevent timeoffset="120" message="That's half way."/>
+            <textevent timeoffset="210" message="Next up, we'll drop the cadence a little but bring your power up to 100% FTP for 3 minutes."/>
+            <textevent timeoffset="230" message="You can do this. I believe in you."/>
+            <textevent timeoffset="240" message="Let's go — three minutes at 100% FTP."/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="1.00" pace="0" Cadence="80">
+            <textevent timeoffset="20" message="Relaxing your upper body? Good."/>
+            <textevent timeoffset="90" message="That's half way. Make sure you're in a good rhythm. Drop your shoulders. Relax your jaw."/>
+            <textevent timeoffset="135" message="Killing it. Maintain that easy grip on the bars smooth, calm rhythm."/>
+            <textevent timeoffset="180" message="Awesome! Over the next 60 seconds, we'll ramp it down to 65% FTP."/>
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.95" PowerHigh="0.65" pace="0"/>
+        <SteadyState Duration="180" Power="0.55" pace="0" Cadence="75">
+            <textevent timeoffset="2" message="Let's have another easy break."/>
+            <textevent timeoffset="90" message="That's half way. Remember to hydrate!"/>
+            <textevent timeoffset="160" message="Our final interval set is next. We do 15 seconds at 110% FTP, then 15 seconds at 85% FTP. There's four reps of this."/>
+            <textevent timeoffset="170" message="Like the first set, there's no cadence target for this last set. You can again spin at a pace that feels comfortable."/>
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="15" OffDuration="15" OnPower="1.10" OffPower="0.85" pace="0"/>
+        <SteadyState Duration="180" Power="0.70" pace="0" Cadence="80">
+            <textevent timeoffset="2" message="Recovery time. Relax, and make sure you drink."/>
+            <textevent timeoffset="12" message="Drop your shoulders. Easy grip on the bars. Loose arms."/>
+            <textevent timeoffset="175" message="We'll bring the cadence up now so we can clear some lactate, but we'll drop the power slightly too."/>
+        </SteadyState>
+        <SteadyState Duration="30" Power="0.65" pace="0" Cadence="95">
+            <textevent timeoffset="25" message="We'll drop the cadence back down now."/>
+        </SteadyState>
+        <SteadyState Duration="90" Power="0.65" pace="0" Cadence="80">
+            <textevent timeoffset="10" message="Find a comfortable rhythm, and relax. Drop your shoulders. Loose upper body."/>
+            <textevent timeoffset="30" message="Make sure you drink!"/>
+            <textevent timeoffset="60" message="Next up is 10 seconds of MAX EFFORT. Don't leave anything on the table."/>
+            <textevent timeoffset="70" message="Remember there's no point changing gear in ERG mode. Just stomp on it. Full power."/>
+            <textevent timeoffset="80" message="You've got to attack this next 10 seconds hard."/>
+        </SteadyState>
+        <MaxEffort Duration="10">
+            <textevent timeoffset="0" message="GO GO GO!"/>
+        </MaxEffort>
+        <SteadyState Duration="30" Power="0.50" pace="0" Cadence="75">
+            <textevent timeoffset="2" message="Catch your breath. Relax."/>
+            <textevent timeoffset="18" message="It's all recovery from here on. We'll vary the cadence a little though."/>
+            <textevent timeoffset="28" message="Gentle cadence increase..."/>
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.60" pace="0" Cadence="80">
+            <textevent timeoffset="10" message="We've got 4 minutes at this level. Easy power and easy cadence. Keep spinning."/>
+            <textevent timeoffset="30" message="Hydrating? Good."/>
+            <textevent timeoffset="60" message="Relaxed upper body, loose shoulders and hands? Good."/>
+            <textevent timeoffset="120" message="That's half way."/>
+            <textevent timeoffset="210" message="Just about done. We'll cruise into a quick cooldown next."/>
+        </SteadyState>
+        <Cooldown Duration="150" PowerLow="0.60" PowerHigh="0.45" pace="0">
+            <textevent timeoffset="5" message="There's no cadence target for this cooldown. Find a comfortable pace."/>
+            <textevent timeoffset="140" message="I hope you enjoyed Skyline."/>
+        </Cooldown>
+    </workout>
+</workout_file>

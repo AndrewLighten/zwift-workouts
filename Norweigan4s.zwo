@@ -1,0 +1,125 @@
+<workout_file>
+    <author>Lighto [SRT]</author>
+    <name>Norweigan 4x4</name>
+    <description>VO2 workout.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="VO2max"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.5" PowerHigh="0.75" pace="0">
+            <textevent timeoffset="0" message="Welcome to the Norweigan 4x4 protocol. This will take less than an hour, but provide a good workout."/>
+            <textevent timeoffset="10" message="This protocol is about building VO2 max — because higher VO2 max values directly correlate to both brain health and lifespan."/>
+            <textevent timeoffset="30" message="Today's workout is fairly straighforward."/>
+            <textevent timeoffset="40" message="We do a couple of warmup activites, then our main set, then cool down."/>
+            <textevent timeoffset="50" message="The main set is the '4x4' part — 4 blocks of work, repeated 4 times. We get 3 minutes of rest between each work block."/>
+            <textevent timeoffset="60" message="Work blocks will be toward the top of zone 4. Rest blocks will be zone 1."/>
+            <textevent timeoffset="105" message="For now, let's just keep a nice steady pace to warm up."/>
+            <textevent timeoffset="150" message="Let's talk about cadence. To optimise our VO2 max gains, we want to emphasis cardio rather than strength."/>
+            <textevent timeoffset="160" message="To do this, there's an 90 rpm cadence target for the work blocks."/>
+            <textevent timeoffset="170" message="Everything else is cadence free — pick what works for you."/>
+            <textevent timeoffset="230" message="Continue warming up. Focus on being relaxed — a loose grip on the bars, relaxed shoulders, and still upper body."/>
+            <textevent timeoffset="290" message="The first part of our warmup is done."/>
+        </Warmup>
+        <SteadyState Duration="120" Power="0.40">
+            <textevent timeoffset="0" message="Let's do some easy cruising for the next few minutes."/>
+            <textevent timeoffset="60" message="I'll give you occasional reminders to drink — this is the first one! Hydration matters."/>
+            <textevent timeoffset="105" message="We'll now do some ramps to complete the warmup."/>
+            <textevent timeoffset="115" message="Each ramp is 120 seconds — 60 seconds up, then 60 seconds back down. We do this twice."/>
+        </SteadyState>
+        <Ramp Duration="60" PowerLow="0.75" PowerHigh="1.00">
+            <textevent timeoffset="10" message="Here we go — up up up!"/>
+        </Ramp>
+        <Ramp Duration="60" PowerLow="1.00" PowerHigh="0.75">
+        </Ramp>
+        <Ramp Duration="60" PowerLow="0.75" PowerHigh="1.00">
+        </Ramp>
+        <Ramp Duration="60" PowerLow="1.00" PowerHigh="0.75">
+            <textevent timeoffset="10" message="Power coming back down now. Stick with it. Focus."/>
+            <textevent timeoffset="55" message="We'll now settle into a few minutes of gentle zone 1 work to recover from these ramps."/>
+        </Ramp>
+        <SteadyState Duration="180" Power="0.45">
+            <textevent timeoffset="10" message="Use these rest sessions. Stay relaxed. Settle your heart rate."/>
+            <textevent timeoffset="30" message="Take a drink. Yeah, I'll keep bugging you. Hydration really is important."/>
+            <textevent timeoffset="60" message="Relaxed shoulders, upper body steady, and a loose grip on the bars."/>
+            <textevent timeoffset="90" message="Half way through this rest period."/>
+            <textevent timeoffset="135" message="We're ready to start the main set."/>
+            <textevent timeoffset="145" message="Remember, it's 4x4 — which means 4 minutes on, then 3 minutes off — and we do that 4 times."/>
+            <textevent timeoffset="155" message="Each 4 minute block of work is just below your FTP — and each rest is the pace you're at now (45% of FTP)."/>
+            <textevent timeoffset="165" message="Get ready — the first 4 minutes of effort is about to start. Spin up — these have a cadence target of 90, remember?"/>
+            <textevent timeoffset="178" message="Let's go. Be strong. Focus."/>
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.98" Cadence="90">
+            <textevent timeoffset="10" message="Our first work block — 1 of 4. Relaxed upper body. Find a good rhythm."/>
+            <textevent timeoffset="60" message="First minute done. That was fast!"/>
+            <textevent timeoffset="120" message="Half way there. You're doing great."/>
+            <textevent timeoffset="180" message="One minute left in this first block."/>
+            <textevent timeoffset="210" message="Last 30 seconds..."/>
+            <textevent timeoffset="230" message="Almost done..."/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.45">
+            <textevent timeoffset="0" message="... and rest. That was easy, right? Even so, we'll take a 3 minute break at low power here."/>
+            <textevent timeoffset="30" message="You remember what I said about drinking? Yeah, you do. Good."/>
+            <textevent timeoffset="90" message="Half way through this rest period."/>
+            <textevent timeoffset="120" message="Think about the rhythm you had in that first block. Visualise going straight back into that — strong and focused."/>
+            <textevent timeoffset="170" message="We're about to start the 2nd block. Ready? Yeah, I know you are."/>
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.98" Cadence="90">
+            <textevent timeoffset="5" message="Our second work block — 2 of 4. Straight back into that rhythm again."/>
+            <textevent timeoffset="60" message="Settling in well. First minute done already."/>
+            <textevent timeoffset="120" message="That's half way. Still looking good!"/>
+            <textevent timeoffset="180" message="One minute left in this second block. That went by quickly..."/>
+            <textevent timeoffset="210" message="Final 30 seconds of effort, then we rest again."/>
+            <textevent timeoffset="230" message="Focused and powerful to the arch."/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.45">
+            <textevent timeoffset="0" message="Back down to low power. Loose shoulders, loose grip on the bars."/>
+            <textevent timeoffset="30" message="Another drink reminder..."/>
+            <textevent timeoffset="90" message="Half way through this rest period."/>
+            <textevent timeoffset="150" message="Once again, visualise that excellent rhythm you've had so far. That's what you're looking for."/>
+            <textevent timeoffset="170" message="Our 3rd block is coming up. As soon as we start this, we're over half way."/>
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.98" Cadence="90">
+            <textevent timeoffset="5" message="Our third work block — 3 of 4. Continue to stay relaxed, and straight back into your rhythm again."/>
+            <textevent timeoffset="30" message="The 3rd quarter is often referred to as the 'Championship Quarter'."/>
+            <textevent timeoffset="40" message="This is the quarter when you win or lose. Fight or give up."/>
+            <textevent timeoffset="50" message="It's the time when you're starting to fatigue, but you've still got work ahead."/>
+            <textevent timeoffset="65" message="That doesn't bother you, though, right? You're smashing it. You're gonna win this one. You're already a minute into this block."/>
+            <textevent timeoffset="120" message="We're half way already! Still going great."/>
+            <textevent timeoffset="180" message="One minute left in this third block. Looking great."/>
+            <textevent timeoffset="210" message="The fatigue is starting to build up, but I believe in you."/>
+            <textevent timeoffset="230" message="Last 10 seconds of this work block..."/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.45">
+            <textevent timeoffset="0" message="Back down to low power. As I've said before — loose shoulders, loose grip on the bars. Relaxed upper body."/>
+            <textevent timeoffset="90" message="We're half way through this recovery block. Another reminder to drink."/>
+            <textevent timeoffset="120" message="Final block coming up in 60 seconds. Last one. Visualise being awesome."/>
+            <textevent timeoffset="178" message="Let's go. Last one."/>
+        </SteadyState>
+        <SteadyState Duration="240" Power="0.98" Cadence="90">
+            <textevent timeoffset="10" message="Our final work block — 4 of 4."/>
+            <textevent timeoffset="20" message="Relaxed start and straight back into your rhythm."/>
+            <textevent timeoffset="30" message="There's only 4 minutes of work remaining — well, 3:30 now."/>
+            <textevent timeoffset="90" message="Focused. Relaxed. Strong."/>
+            <textevent timeoffset="120" message="You're already half way — smashing it!"/>
+            <textevent timeoffset="150" message="A final 90 seconds of effort. Go you good thing!"/>
+            <textevent timeoffset="170" message="Keep that rhythm. Loose shoulders, and a relaxed upper body."/>
+            <textevent timeoffset="210" message="30 seconds left. Yeah, you can. You are POWERFUL."/>
+            <textevent timeoffset="230" message="10 seconds to go — work hard to the arch, then it's all done."/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.45">
+            <textevent timeoffset="0" message="And breathe."/>
+            <textevent timeoffset="10" message="I didn't want to say anything earlier, but that was 16 minutes of work pretty much at your FTP. Top effort, that!"/>
+            <textevent timeoffset="40" message="Time to relax, rehydrate, stretch your upper body, and take pride in the epic work you've just done."/>
+            <textevent timeoffset="90" message="One final reminder to drink up — we're just on half way through this final recovery. We'll ease into a short cooldown after this."/>
+            <textevent timeoffset="150" message="Another 30 seconds then we'll really ramp the power down."/>
+        </SteadyState>
+        <Cooldown Duration="120" PowerLow="0.45" PowerHigh="0.30">
+            <textevent timeoffset="0" message="Ok, let's do a final cooldown, progressively dropping to a very low power level. Low, low zone 1."/>
+            <textevent timeoffset="10" message="Aside from the 4 work blocks, no cadence targets were set in this workout."/>
+            <textevent timeoffset="20" message="You might want to spin up a little for this final cooldown to clear the lactic acid a bit faster. Your call though."/>
+            <textevent timeoffset="100" message="Final 20 seconds, then we're done. Great effort today — your VO2 max will thank you."/>
+            <textevent timeoffset="110" message="Job done. That was an excellent performance. Proud of you."/>
+        </Cooldown>
+    </workout>
+</workout_file>
